@@ -4,7 +4,7 @@
   "description": "Prueba Libreria",
   "author": "silvap-javier",
   "license": "MIT",
-  "repository": "silvap-javier/lemonade-test",
+  "repository": "silvap-javier/library-component",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -25,6 +25,12 @@
   },
   "peerDependencies": {
     "react": "^16.0.0"
+  },
+  "dependencies": {
+    "@aqrojo/class-names": "1.0.0",
+    "@aqrojo/when": "1.0.3",
+    "mobx": "^5.15.7",
+    "mobx-react-lite": "^2.2.2"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",

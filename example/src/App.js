@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { ExampleComponent } from 'lemonade-test'
+import MultipleChoice from 'lemonade-test'
 import 'lemonade-test/dist/index.css'
+import {exerciseData} from './mulitple-choice-data.js';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <MultipleChoice data={exerciseData}/>
 }
 
 export default App
